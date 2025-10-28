@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecogetaway - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+    <style>
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .project-card {
+            transition: transform 0.2s ease-in-out;
+        }
+        .project-card:hover {
+            transform: translateY(-2px);
+        }
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+        }
+        .badge:hover {
+            transform: scale(1.05);
+        }
+        .section-anchor {
+            scroll-margin-top: 2rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <h1 class="text-xl font-bold gradient-text">ecogetaway</h1>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors">About</a>
+                    <a href="#projects" class="text-gray-600 hover:text-gray-900 transition-colors">Projects</a>
+                    <a href="#blog" class="text-gray-600 hover:text-gray-900 transition-colors">Blog</a>
+                    <a href="#skills" class="text-gray-600 hover:text-gray-900 transition-colors">Skills</a>
+                    <a href="#hackathons" class="text-gray-600 hover:text-gray-900 transition-colors">Hackathons</a>
+                    <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-gray-900">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+                <div class="flex flex-col space-y-2">
+                    <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors py-1">About</a>
+                    <a href="#projects" class="text-gray-600 hover:text-gray-900 transition-colors py-1">Projects</a>
+                    <a href="#blog" class="text-gray-600 hover:text-gray-900 transition-colors py-1">Blog</a>
+                    <a href="#skills" class="text-gray-600 hover:text-gray-900 transition-colors py-1">Skills</a>
+                    <a href="#hackathons" class="text-gray-600 hover:text-gray-900 transition-colors py-1">Hackathons</a>
+                    <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors py-1">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-white py-12">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold gradient-text mb-4">ecogetaway - Portfolio</h1>
+            <p class="text-lg text-gray-600 mb-6">Product & Program Management Professional | Software Development & AI Enthusiast | 25+ Years Experience</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://github.com/ecogetaway" class="badge bg-gray-900 text-white hover:bg-gray-800">
+                    <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    GitHub
+                </a>
+                <a href="mailto:ecogetaway@gmail.com" class="badge bg-red-600 text-white hover:bg-red-700">
+                    <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-.904.732-1.636 1.636-1.636h3.819L12 8.73l6.545-4.91h3.819c.904 0 1.636.732 1.636 1.636z"/>
+                    </svg>
+                    Email
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 py-8">
+        <!-- About Me -->
+        <section id="about" class="section-anchor mb-12">
+            <h2 class="text-3xl font-bold mb-6">About Me</h2>
+            <div class="bg-white rounded-lg shadow-sm p-6">
+                <p class="text-lg mb-4">Hello! I'm ecogetaway, a seasoned professional with over 25 years of experience in product and program management, including 11 years working in the United States. Throughout my career, I've led cross-functional teams, managed complex projects, and delivered innovative solutions across various industries.</p>
+                <p class="text-lg mb-4">I'm actively seeking opportunities where I can contribute my expertise to meaningful software development, AI, and IT projects. My passion for technology and continuous learning drives me to stay current with the latest developments in software development, artificial intelligence, and machine learning.</p>
+                
+                <div class="grid md:grid-cols-2 gap-6 mt-6">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-3">Core Skills</h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Product Management</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Program Management</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Software Development</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> AI/ML</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> IT Project Leadership</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-3">What I'm Looking For</h3>
+                        <p class="text-gray-600 mb-3">I'm actively seeking opportunities where I can contribute to meaningful projects that make a difference. Whether it's mentoring developers, contributing to open-source projects, or helping organizations with their technology needs.</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>💻 Software development (web, mobile, desktop applications)</li>
+                            <li>🤖 AI/ML implementations and integrations</li>
+                            <li>🔧 IT infrastructure and automation projects</li>
+                            <li>🎓 Educational technology initiatives</li>
+                            <li>🌍 Social impact and purpose-driven tech solutions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section-anchor mb-12">
+            <h2 class="text-3xl font-bold mb-6">Projects</h2>
+            <div class="space-y-8">
+                <!-- Project 1 -->
+                <div class="project-card bg-white rounded-lg shadow-sm p-6">
+                    <h3 class="text-2xl font-bold mb-3">🚀 AI-Powered Project Management Dashboard</h3>
+                    <p class="text-gray-600 mb-4">A comprehensive dashboard that leverages machine learning to predict project risks, optimize resource allocation, and provide real-time insights for program managers.</p>
+                    
+                    <div class="mb-4">
+                        <h4 class="font-semibold mb-2">Technologies Used:</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">React</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Node.js</span>
+                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm">Python</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">TensorFlow</span>
+                            <span class="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm">PostgreSQL</span>
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">Docker</span>
+                            <span class="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm">AWS</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <a href="https://youtube.com/watch?v=placeholder" class="text-blue-600 hover:text-blue-800 mr-4">📺 YouTube Demo</a>
+                        <a href="https://github.com/ecogetaway/ai-project-dashboard" class="text-blue-600 hover:text-blue-800">💻 Code Repository</a>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h4 class="font-semibold mb-2">My Role & Contributions:</h4>
+                        <p class="text-gray-600">Led the product strategy and technical architecture design, implemented machine learning models for risk prediction, managed cross-functional team of 8 developers and data scientists, and established CI/CD pipeline and deployment processes.</p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold mb-2">Key Challenges Solved:</h4>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Integrated multiple data sources to create unified project visibility</li>
+                            <li>Developed scalable ML models that could handle enterprise-level data volumes</li>
+                            <li>Created intuitive UI that made complex data accessible to non-technical stakeholders</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card bg-white rounded-lg shadow-sm p-6">
+                    <h3 class="text-2xl font-bold mb-3">🌐 Sustainable Web Development Platform</h3>
+                    <p class="text-gray-600 mb-4">An open-source platform that helps developers build environmentally conscious web applications by providing tools for carbon footprint tracking and optimization recommendations.</p>
+                    
+                    <div class="mb-4">
+                        <h4 class="font-semibold mb-2">Technologies Used:</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Next.js</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">TypeScript</span>
+                            <span class="px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full text-sm">Tailwind CSS</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Supabase</span>
+                            <span class="px-3 py-1 bg-black text-white rounded-full text-sm">Vercel</span>
+                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm">Web Vitals API</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <a href="https://youtube.com/watch?v=placeholder" class="text-blue-600 hover:text-blue-800 mr-4">📺 YouTube Demo</a>
+                        <a href="https://github.com/ecogetaway/sustainable-web-platform" class="text-blue-600 hover:text-blue-800">💻 Code Repository</a>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h4 class="font-semibold mb-2">My Role & Contributions:</h4>
+                        <p class="text-gray-600">Designed and implemented the core platform architecture, developed carbon footprint calculation algorithms, created comprehensive documentation and developer onboarding materials, and managed community contributions and open-source collaboration.</p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold mb-2">Key Challenges Solved:</h4>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Built accurate carbon footprint calculation models for web applications</li>
+                            <li>Created a developer-friendly API that integrates seamlessly with existing workflows</li>
+                            <li>Established sustainable hosting practices and optimization recommendations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card bg-white rounded-lg shadow-sm p-6">
+                    <h3 class="text-2xl font-bold mb-3">📊 Data Visualization Suite for Non-Profits</h3>
+                    <p class="text-gray-600 mb-4">A user-friendly data visualization tool specifically designed for non-profit organizations to track their impact, manage donor relationships, and generate compelling reports for stakeholders.</p>
+                    
+                    <div class="mb-4">
+                        <h4 class="font-semibold mb-2">Technologies Used:</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Vue.js</span>
+                            <span class="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm">D3.js</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Node.js</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">MongoDB</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Chart.js</span>
+                            <span class="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm">Express</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <a href="https://youtube.com/watch?v=placeholder" class="text-blue-600 hover:text-blue-800 mr-4">📺 YouTube Demo</a>
+                        <a href="https://github.com/ecogetaway/nonprofit-viz-suite" class="text-blue-600 hover:text-blue-800">💻 Code Repository</a>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h4 class="font-semibold mb-2">My Role & Contributions:</h4>
+                        <p class="text-gray-600">Conducted user research with 15+ non-profit organizations, designed intuitive data visualization components, implemented secure data handling and privacy compliance features, and provided training and support for non-technical users.</p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold mb-2">Key Challenges Solved:</h4>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Created accessible visualizations that work across different technical skill levels</li>
+                            <li>Implemented robust data security measures for sensitive donor information</li>
+                            <li>Developed mobile-responsive design for field workers and remote teams</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Posts -->
+        <section id="blog" class="section-anchor mb-12">
+            <h2 class="text-3xl font-bold mb-6">Blog Posts & Community Contributions</h2>
+            <div class="bg-white rounded-lg shadow-sm p-6">
+                <div class="space-y-4">
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="text-xl font-semibold mb-2">
+                            <a href="https://medium.com/@ecogetaway/sustainable-web-development" class="text-blue-600 hover:text-blue-800">Building Sustainable Web Applications: A Developer's Guide</a>
+                        </h3>
+                        <p class="text-gray-600 mb-1">A comprehensive guide on creating environmentally conscious web applications, covering carbon footprint measurement, optimization techniques, and sustainable hosting practices.</p>
+                        <p class="text-sm text-gray-500">Published: March 2024 | Platform: Medium</p>
+                    </div>
+                    
+                    <div class="border-l-4 border-green-500 pl-4">
+                        <h3 class="text-xl font-semibold mb-2">
+                            <a href="https://dev.to/ecogetaway/ai-project-management-future" class="text-blue-600 hover:text-blue-800">The Future of AI in Project Management: Lessons from 30 Years</a>
+                        </h3>
+                        <p class="text-gray-600 mb-1">Reflections on how artificial intelligence is transforming project management, based on decades of experience in the field.</p>
+                        <p class="text-sm text-gray-500">Published: February 2024 | Platform: Dev.to</p>
+                    </div>
+                    
+                    <div class="border-l-4 border-purple-500 pl-4">
+                        <h3 class="text-xl font-semibold mb-2">
+                            <a href="https://hashnode.com/@ecogetaway/open-source-nonprofit" class="text-blue-600 hover:text-blue-800">Open Source for Good: Contributing to Non-Profit Technology</a>
+                        </h3>
+                        <p class="text-gray-600 mb-1">A deep dive into how open-source contributions can make a meaningful impact in the non-profit sector and community organizations.</p>
+                        <p class="text-sm text-gray-500">Published: January 2024 | Platform: Hashnode</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section-anchor mb-12">
+            <h2 class="text-3xl font-bold mb-6">Skills & Expertise</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-sm p-6">
+                    <h3 class="text-xl font-semibold mb-4">Management</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Product Strategy</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Program Management</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Agile/Scrum</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Stakeholder Management</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-sm p-6">
+                    <h3 class="text-xl font-semibold mb-4">Technical</h3>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-medium mb-2">Software Development:</h4>
+                            <div class="flex flex-wrap gap-1">
+                                <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">HTML5</span>
+                                <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">CSS3</span>
+                                <span class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-xs">JavaScript</span>
+                                <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">TypeScript</span>
+                                <span class="px-2 py-1 bg-cyan-100 text-cyan-800 rounded text-xs">React</span>
+                                <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">Vue.js</span>
+                                <span class="px-2 py-1 bg-black text-white rounded text-xs">Next.js</span>
+                                <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">Node.js</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-medium mb-2">AI/ML:</h4>
+                            <div class="flex flex-wrap gap-1">
+                                <span class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-xs">Python</span>
+                                <span class="px-2 py-1 bg-orange-100 text-orange-800 rounded text-xs">TensorFlow</span>
+                                <span class="px-2 py-1 bg-red-100 text-red-800 rounded text-xs">PyTorch</span>
+                                <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">scikit-learn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-sm p-6">
+                    <h3 class="text-xl font-semibold mb-4">Tools</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Git, GitHub</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> VS Code</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Docker</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Jira, Confluence</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Figma</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Google Analytics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hackathon Achievements -->
+        <section id="hackathons" class="section-anchor mb-12">
+            <h2 class="text-3xl font-bold mb-6">Hackathon Achievements</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-sm p-6 text-center">
+                    <div class="text-4xl mb-3">🏆</div>
+                    <h3 class="text-lg font-semibold mb-2">Tech for Good Hackathon 2024</h3>
+                    <p class="text-sm text-gray-600 mb-2">Top 3 Finalist</p>
+                    <p class="text-xs text-gray-500">March 2024</p>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-sm p-6 text-center">
+                    <div class="text-4xl mb-3">🥈</div>
+                    <h3 class="text-lg font-semibold mb-2">Climate Tech Innovation Challenge 2023</h3>
+                    <p class="text-sm text-gray-600 mb-2">Runner-up</p>
+                    <p class="text-xs text-gray-500">November 2023</p>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-sm p-6 text-center">
+                    <div class="text-4xl mb-3">🎯</div>
+                    <h3 class="text-lg font-semibold mb-2">Community Impact Hackathon 2023</h3>
+                    <p class="text-sm text-gray-600 mb-2">Judges' Choice Award</p>
+                    <p class="text-xs text-gray-500">September 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section-anchor mb-12">
+            <h2 class="text-3xl font-bold mb-6">Contact & Collaboration</h2>
+            <div class="bg-white rounded-lg shadow-sm p-6">
+                <div class="text-center mb-6">
+                    <h3 class="text-xl font-semibold mb-4">Get in Touch</h3>
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <a href="mailto:ecogetaway@gmail.com" class="badge bg-red-600 text-white hover:bg-red-700">
+                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-.904.732-1.636 1.636-1.636h3.819L12 8.73l6.545-4.91h3.819c.904 0 1.636.732 1.636 1.636z"/>
+                            </svg>
+                            ecogetaway@gmail.com
+                        </a>
+                        <a href="https://github.com/ecogetaway" class="badge bg-gray-900 text-white hover:bg-gray-800">
+                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            @ecogetaway
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-3">Current Status</h3>
+                        <div class="space-y-2 text-sm">
+                            <div class="flex items-center justify-center"><span class="text-green-500 mr-2">🟢</span> Available for projects</div>
+                            <div class="flex items-center justify-center"><span class="text-blue-500 mr-2">🔍</span> Actively looking for opportunities in software development, AI, and IT initiatives</div>
+                            <div class="flex items-center justify-center"><span class="text-purple-500 mr-2">💡</span> Open to mentoring and contributing to impactful projects</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">I'm actively seeking opportunities in software development, AI, and IT projects. Whether you're looking for technical mentorship, open-source contributions, or impact initiatives, feel free to reach out!</p>
+                    <p class="text-sm text-gray-500">For privacy reasons, I prefer initial contact through email or GitHub. I'm happy to connect on other platforms once we've established communication.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <p class="mb-4">© 2024 ecogetaway. All rights reserved.</p>
+            <div class="flex justify-center space-x-6">
+                <a href="https://github.com/ecogetaway" class="text-gray-400 hover:text-white transition-colors">GitHub</a>
+                <a href="mailto:ecogetaway@gmail.com" class="text-gray-400 hover:text-white transition-colors">Email</a>
+                <a href="https://github.com/ecogetaway/ecogetaway-portfolio/discussions" class="text-gray-400 hover:text-white transition-colors">Discussions</a>
+            </div>
+            <p class="text-sm text-gray-500 mt-4">Last updated: December 2024</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    document.getElementById('mobile-menu').classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
