@@ -10,7 +10,7 @@
 
 - [About Me](#about-me)
 - [Projects](#projects)
-- [Blog Posts & Community Contributions](#blog-posts--community-contributions)
+- [Dev Community Articles](#dev-community-articles)
 - [Skills & Expertise](#skills--expertise)
 - [Hackathon Achievements](#hackathon-achievements)
 - [Contact & Collaboration](#contact--collaboration)
@@ -27,22 +27,12 @@ I'm actively seeking opportunities where I can contribute my expertise to meanin
 ### Core Skills
 - **Product Management**: Strategic planning, roadmap development, stakeholder management
 - **Program Management**: Cross-functional team leadership, risk management, delivery excellence
-
-**Software Development (Modern Approach)**
-- AI-assisted development using Cursor Pro and prompt engineering
-- Full-stack application development (web, APIs, databases)
-- Python (learning), JavaScript, HTML/CSS, React
-- Git, GitHub, Firebase, Docker, AWS basics
-
-**AI/ML Integration**
-- OpenAI API and Claude API implementations
-- Building AI-powered applications and automation solutions
-- Prompt engineering and LLM workflow design
-- Data analysis and intelligent system integration
+- **Software Development**: Full-stack development, modern frameworks, responsive design
+- **AI/ML**: Machine learning applications, data analysis, automation solutions
 - **IT Project Leadership**: Technical project management, system integration, process optimization
 
 ### What I'm Looking For
-I'm actively seeking opportunities where I can contribute to meaningful projects that make a difference,including volunteering. Whether it's mentoring junior project managers, contributing to open-source projects, or helping organizations with their technology needs, I'm excited to bring my experience and enthusiasm to the table.
+I'm actively seeking opportunities where I can contribute to meaningful projects that make a difference. Whether it's mentoring developers, contributing to open-source projects, or helping organizations with their technology needs, I'm excited to bring my experience and enthusiasm to the table.
 
 - 💻 Software development (web, mobile, desktop applications)
 - 🤖 AI/ML implementations and integrations
@@ -184,54 +174,18 @@ React Native, Firebase, Google Maps API, React, Node.js
 
 ---
 
-## Blog Posts & Community Contributions
+## Dev Community Articles
 
-### [Building Sustainable Web Applications: A Developer's Guide](https://medium.com/@ecogetaway/sustainable-web-development)
-A comprehensive guide on creating environmentally conscious web applications, covering carbon footprint measurement, optimization techniques, and sustainable hosting practices.
-*Published: March 2024 | Platform: Medium*
+### [Performance Review Season — Visualized in CSS](https://dev.to/ecogetaway_b3a2518c89c057/performance-review-season-visualized-in-css-95g)
+This was a submission for Frontend Challenge: Office Edition sponsored by Axero, CSS Art: Office Culture.
+*Published: July 27, 2025 | Platform: Dev Community*
 
-### [The Future of AI in Project Management: Lessons from 30 Years](https://dev.to/ecogetaway/ai-project-management-future)
-Reflections on how artificial intelligence is transforming project management, based on decades of experience in the field.
-*Published: February 2024 | Platform: Dev.to*
-
-### [Open Source for Good: Contributing to Non-Profit Technology](https://hashnode.com/@ecogetaway/open-source-nonprofit)
-A deep dive into how open-source contributions can make a meaningful impact in the non-profit sector and community organizations.
-*Published: January 2024 | Platform: Hashnode*
-
-### [From Corporate to Community: Finding Purpose in Volunteer Tech Work](https://medium.com/@ecogetaway/corporate-to-community-tech)
-Personal insights on transitioning from corporate technology roles to community-focused volunteer work and the rewards it brings.
-*Published: December 2023 | Platform: Medium*
-
-### [Hackathon Success: Strategies for Building Winning Projects](https://dev.to/ecogetaway/hackathon-success-strategies)
-Practical advice for participating in hackathons, from team formation to project presentation, based on multiple successful competitions.
-*Published: November 2023 | Platform: Dev.to*
+### [Wired for Innovation: Lessons from Bolt.New hackathon](https://dev.to/ecogetaway_b3a2518c89c057/wired-for-innovation-lessons-from-boltnew-hackathon-2nlo)
+This was a submission for World's Largest Hackathon Writing Challenge that offered a chance to document my building experience with Bolt.new hackathon and share it with the community.
+*Published: July 23, 2025 | Platform: Dev Community*
 
 ---
 
-## Skills & Expertise
-
-### Management
-- **Product Strategy**: Market research, competitive analysis, roadmap planning
-- **Program Management**: Cross-functional team leadership, risk management, delivery excellence
-- **Agile/Scrum**: Certified Scrum Master, sprint planning, retrospective facilitation
-- **Stakeholder Management**: Executive communication, client relations, vendor management
-
-  
-### Technical Skills
-- **Development Approach:** Leveraging AI tools (Cursor Pro) for rapid software development
-- **Programming:** Python (actively learning), JavaScript fundamentals, HTML/CSS
-- **AI Integration:** OpenAI API, Claude API, AI-powered automation
-- **Tools & Platforms:** Git, Cursor IDE, Firebase, Docker basics
-- **Learning Focus:** Full-stack development, AI/ML implementations, cloud technologies
-  ```
-
-### Tools
-- **Development**: Git, GitHub, VS Code, Postman, Docker, Jira, Confluence
-- **Design**: Figma, Adobe Creative Suite, user research tools
-- **Analytics**: Google Analytics, Mixpanel, Tableau, Power BI
-- **Project Management**: Asana, Trello, Monday.com, Microsoft Project
-
----
 
 ## Hackathon Achievements
 
@@ -281,43 +235,3 @@ I'm actively seeking opportunities in software development, AI, and IT projects.
 **Feel free to reach out!** I'm excited to contribute my experience and skills to meaningful projects that make a difference.
 
 ---
-
-## Privacy & Security Notes
-
-### Information I Share
-- Professional skills and experience
-- Project work and contributions
-- Volunteer availability and interests
-- Contact information (email and GitHub only)
-
-### Information I Protect
-- Personal full name and family details
-- Phone numbers and physical addresses
-- Personal social media profiles
-- Private financial information
-- Personal photographs or identifying images
-
-### Contact Preferences
-- Initial contact through email or GitHub preferred
-- Professional networking through LinkedIn (optional)
-- No personal social media connections
-- Focus on professional and volunteer opportunities
-
----
-
-## Optional Enhancements
-
-<!-- Uncomment the following badges if you want to display GitHub statistics -->
-<!--
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ecogetaway&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ecogetaway&layout=compact&theme=default)
--->
-
-<!-- Uncomment and update the LinkedIn badge when you have a professional LinkedIn profile -->
-<!--
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-View_Profile-0A66C2?logo=linkedin)](https://linkedin.com/in/ecogetaway)
--->
-
----
-
-*Last updated: December 2024*
