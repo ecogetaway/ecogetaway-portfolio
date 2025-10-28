@@ -27,12 +27,22 @@ I'm actively seeking opportunities where I can contribute my expertise to meanin
 ### Core Skills
 - **Product Management**: Strategic planning, roadmap development, stakeholder management
 - **Program Management**: Cross-functional team leadership, risk management, delivery excellence
-- **Software Development**: Full-stack development, modern frameworks, responsive design
-- **AI/ML**: Machine learning applications, data analysis, automation solutions
+
+**Software Development (Modern Approach)**
+- AI-assisted development using Cursor Pro and prompt engineering
+- Full-stack application development (web, APIs, databases)
+- Python (learning), JavaScript, HTML/CSS, React
+- Git, GitHub, Firebase, Docker, AWS basics
+
+**AI/ML Integration**
+- OpenAI API and Claude API implementations
+- Building AI-powered applications and automation solutions
+- Prompt engineering and LLM workflow design
+- Data analysis and intelligent system integration
 - **IT Project Leadership**: Technical project management, system integration, process optimization
 
 ### What I'm Looking For
-I'm actively seeking opportunities where I can contribute to meaningful projects that make a difference. Whether it's junior project managers, contributing to open-source projects, or helping organizations with their technology needs, I'm excited to bring my experience and enthusiasm to the table.
+I'm actively seeking opportunities where I can contribute to meaningful projects that make a difference,including volunteering. Whether it's mentoring junior project managers, contributing to open-source projects, or helping organizations with their technology needs, I'm excited to bring my experience and enthusiasm to the table.
 
 - 💻 Software development (web, mobile, desktop applications)
 - 🤖 AI/ML implementations and integrations
