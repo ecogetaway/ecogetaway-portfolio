@@ -32,7 +32,7 @@ I'm actively seeking opportunities where I can contribute my expertise to meanin
 - **IT Project Leadership**: Technical project management, system integration, process optimization
 
 ### What I'm Looking For
-I'm actively seeking opportunities where I can contribute to meaningful projects that make a difference. Whether it's mentoring developers, contributing to open-source projects, or helping organizations with their technology needs, I'm excited to bring my experience and enthusiasm to the table.
+I'm actively seeking opportunities where I can contribute to meaningful projects that make a difference. Whether it's junior project managers, contributing to open-source projects, or helping organizations with their technology needs, I'm excited to bring my experience and enthusiasm to the table.
 
 - 💻 Software development (web, mobile, desktop applications)
 - 🤖 AI/ML implementations and integrations
@@ -206,22 +206,13 @@ Practical advice for participating in hackathons, from team formation to project
 - **Agile/Scrum**: Certified Scrum Master, sprint planning, retrospective facilitation
 - **Stakeholder Management**: Executive communication, client relations, vendor management
 
-### Technical
-- **Software Development**: 
-  ```
-  HTML5, CSS3, JavaScript (ES6+), TypeScript, React, Vue.js, Next.js, Node.js
-  ```
-- **AI/ML**: 
-  ```
-  Python, TensorFlow, PyTorch, scikit-learn, OpenAI API, data analysis, model deployment
-  ```
-- **Cloud Technologies**: 
-  ```
-  AWS, Google Cloud Platform, Azure, Docker, Kubernetes, serverless architecture
-  ```
-- **Database Management**: 
-  ```
-  PostgreSQL, MongoDB, Redis, data modeling, query optimization
+  
+### Technical Skills
+- **Development Approach:** Leveraging AI tools (Cursor Pro) for rapid software development
+- **Programming:** Python (actively learning), JavaScript fundamentals, HTML/CSS
+- **AI Integration:** OpenAI API, Claude API, AI-powered automation
+- **Tools & Platforms:** Git, Cursor IDE, Firebase, Docker basics
+- **Learning Focus:** Full-stack development, AI/ML implementations, cloud technologies
   ```
 
 ### Tools
