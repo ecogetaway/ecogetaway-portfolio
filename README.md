@@ -61,18 +61,21 @@ I'm actively seeking opportunities where I can contribute to meaningful projects
  **Technologies:** React 19, Next.js 15, Tailwind CSS, Shadcn UI, Python 3.11, FastAPI, PostgreSQL ,
 	                   AWS Bedrock (Claude 3 Sonnet), Strands Agents
  -**What I Built:**  (1) AWS AI-driven Remote Monitoring & Management(RMM) dashboard provides a 
-	                        centralized view of Bedrock Agents, incidents, servers, and analytics. It showcases  
-                            autonomous workflows with explainable actions, emphasizing reductions in Mean 
-                            Time to Repair (MTTR), cost savings, and increased automation rates.
-		(2) MSP Alert Intelligence Platform is an AI powered alert management system for MSPs 
-                               and IT teams that reduces noise, correlates related alerts into incidents,
-                              and streamlines multi tenant operations. This was built on Keep’s Open source  
-                             foundation and enhanced with AWS Bedrock AI and Strands Agents
- 
- **Key Learning:**   Workflow Automation, AI/ML Integration 
-  **Code:** Github: (1) https://github.com/ecogetaway/aws-rmm-dashboard2025
- 		   (2) https://github.com/ecogetaway/AlertIntelligence-NoiseReduction-MSPs
-<img width="468" height="585" alt="image" src="https://github.com/user-attachments/assets/5f5311a1-d00c-4ae9-8a40-d8edab077802" />
+	                     centralized view of Bedrock Agents, incidents, servers, and analytics. It showcases  
+                         autonomous workflows with explainable actions, emphasizing reductions in Mean 
+                         Time to Repair (MTTR), cost savings, and increased automation rates.
+					(2) MSP Alert Intelligence Platform is an AI powered alert management system for MSPs 
+                        and IT teams that reduces noise, correlates related alerts into incidents,
+                        and streamlines multi tenant operations. This was built on Keep’s Open source  
+                        foundation and enhanced with AWS Bedrock AI and Strands Agents
+						
+ **Key Learning:**     Workflow Automation, AI/ML Integration 
+     **Code:**         (1) https://github.com/ecogetaway/aws-rmm-dashboard2025
+ 		  			   (2) https://github.com/ecogetaway/AlertIntelligence-NoiseReduction-MSPs	
+
+
+					   
+<img width="468" height="84" alt="image" src="https://github.com/user-attachments/assets/2a49443c-312d-43f3-b3d0-cb14dcf0379f" />
 ---
 ## Dev Community Articles
 
