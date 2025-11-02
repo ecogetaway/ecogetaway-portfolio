@@ -41,41 +41,127 @@ I'm actively seeking opportunities where I can contribute to meaningful projects
 - 🌍 Social impact and purpose-driven tech solutions
 
 ---
+## 🚀 Hackathon Experience & Projects
 
-## 🚀 Hackathon Experience
+### Google Cloud Agentic AI Day 2025 - Shortlisted Finalist
 
-### Google Cloud Agentic AI Day  2025 - Shortlisted Finalist
-**Project:** AI-powered wealth management advisor  
-- **Status:** Prototype developed 
-- **My Role:** Solo developer using Cursor AI-assisted development
-- **Technologies:** React, Node.js, Gemini AI ,Vertex AI Agent builder, Google Cloud Platform
-- **What I Built:**  AI-powered wealth management advisor  leverages Fi Money platform’s MCP Server to
-	                  provide hyper-personalized financial guidance through natural language conversations-
- **Key Learning:** AI Integration in Financial systems
+**Project:** AI-Powered Wealth Management Advisor
+
+**Context:** Google Cloud hackathon focusing on agentic AI applications  
+**Development Approach:** AI-assisted development using Cursor Pro  
+**Team:** Solo developer  
+**Status:** Working prototype
+
+**The Challenge:**  
+Create an intelligent financial advisor that provides personalized wealth management guidance through natural conversations.
+
+**My Solution:**  
+Built an AI-powered wealth management advisor that leverages Fi Money platform's MCP Server to deliver hyper-personalized financial guidance through natural language conversations. The system understands user financial contexts and provides actionable recommendations.
+
+**Technical Implementation:**
+- **Technologies:** React, Node.js, Gemini AI, Vertex AI Agent Builder, Google Cloud Platform
+- Integrated Fi Money's MCP Server for real-time financial data access
+- Implemented Gemini AI for natural language understanding and response generation
+- Used Vertex AI Agent Builder to create conversational flows
+- Designed user-friendly interface for seamless financial consultations
+
+**Key Learnings:**
+- AI integration in financial systems and handling sensitive financial data
+- Working with Google Cloud's AI/ML services (Gemini, Vertex AI)
+- Building conversational AI agents with context awareness
+- Balancing personalization with data privacy in fintech applications
+- API integration with financial platforms (MCP Server)
+
+**Achievement:** Shortlisted from competitive field of submissions
+
+---
 
 ### SuperHack 2025 - Shortlisted Participant
-**Project:** Service efficiency improvement for Managed Service providers (MSP)s and internal  IT Teams 
--**Status:** Prototype/MVP
-- **My Role:** Solo developer using Cursor AI-assisted development
 
- **Technologies:** React 19, Next.js 15, Tailwind CSS, Shadcn UI, Python 3.11, FastAPI, PostgreSQL ,
-	                   AWS Bedrock (Claude 3 Sonnet), Strands Agents
- -**What I Built:**  (1) AWS AI-driven Remote Monitoring & Management(RMM) dashboard provides a 
-	                     centralized view of Bedrock Agents, incidents, servers, and analytics. It showcases  
-                         autonomous workflows with explainable actions, emphasizing reductions in Mean 
-                         Time to Repair (MTTR), cost savings, and increased automation rates.
-					(2) MSP Alert Intelligence Platform is an AI powered alert management system for MSPs 
-                        and IT teams that reduces noise, correlates related alerts into incidents,
-                        and streamlines multi tenant operations. This was built on Keep’s Open source  
-                        foundation and enhanced with AWS Bedrock AI and Strands Agents
-						
- **Key Learning:**     Workflow Automation, AI/ML Integration 
-     **Code:**         (1) https://github.com/ecogetaway/aws-rmm-dashboard2025
- 		  			   (2) https://github.com/ecogetaway/AlertIntelligence-NoiseReduction-MSPs	
+**Project:** Service Efficiency Platform for MSPs & IT Teams
+
+**Context:** Built during SuperHack 2025 hackathon  
+**Development Approach:** AI-assisted development using Cursor Pro  
+**Team:** Solo developer  
+**Status:** Dual prototype/MVP system
+
+**The Challenge:**  
+Managed Service Providers and internal IT teams struggle with alert fatigue, scattered monitoring data, and slow incident response times, leading to increased costs and reduced efficiency.
+
+**My Solution:**  
+Developed two integrated systems that transform how MSPs and IT teams manage operations:
+
+#### 1️⃣ AWS AI-Driven Remote Monitoring & Management (RMM) Dashboard
+A centralized command center providing unified visibility across Bedrock Agents, incidents, servers, and analytics.
+
+**Key Features:**
+- Autonomous workflows with explainable AI-driven actions
+- Real-time visualization of Mean Time to Repair (MTTR) reductions
+- Cost savings tracking and ROI calculations
+- Automation rate monitoring and optimization insights
+- Multi-tenant server health monitoring
+
+#### 2️⃣ MSP Alert Intelligence Platform
+An AI-powered alert management system that reduces noise and correlates related alerts into actionable incidents.
+
+**Key Features:**
+- Built on Keep's open-source foundation, enhanced with AWS Bedrock AI
+- Intelligent alert correlation using Claude 3 Sonnet
+- Multi-tenant operations support with data isolation
+- Strands Agents for distributed alert processing
+- Noise reduction algorithms to eliminate alert fatigue
+
+**Technical Implementation:**
+- **Frontend:** React 19, Next.js 15, Tailwind CSS, Shadcn UI
+- **Backend:** Python 3.11, FastAPI, PostgreSQL
+- **AI/ML:** AWS Bedrock (Claude 3 Sonnet), Strands Agents
+- **Architecture:** Designed multi-tenant system with secure data separation
+- **Integration:** Connected multiple data sources into unified dashboard
+- **Automation:** Implemented autonomous workflows with explainable actions
+
+**Key Learnings:**
+- **Workflow Automation:** Designed and implemented autonomous workflows that reduce manual intervention
+- **AI/ML Integration:** Practical experience with AWS Bedrock and Claude 3 Sonnet for alert correlation
+- **Multi-Tenant Architecture:** Built systems serving multiple clients with proper data isolation
+- **Real-Time Systems:** Developed dashboards with live data updates and analytics
+- **Open Source Contribution:** Extended Keep's foundation with enterprise AI capabilities
+- **DevOps & Monitoring:** Deep understanding of incident management and observability at scale
+- **Performance Optimization:** Focused on measurable outcomes (MTTR reduction, cost savings)
+
+**Code Repositories:**
+- [AWS RMM Dashboard](https://github.com/ecogetaway/aws-rmm-dashboard2025)
+- [MSP Alert Intelligence Platform](https://github.com/ecogetaway/AlertIntelligence-NoiseReduction-MSPs)
+
+**Achievement:** Shortlisted participant in SuperHack 2025
+
+---
+
+## 💡 Key Takeaways from Hackathon Experience
+
+**Technical Growth:**  
+My hackathon projects focused on real-world enterprise challenges—specifically financial AI systems and MSP operations automation. I gained practical experience with:
+- **AI/ML Integration:** AWS Bedrock (Claude 3 Sonnet), Google Gemini AI, Vertex AI Agent Builder
+- **Cloud Platforms:** Google Cloud Platform, AWS services
+- **Modern Frontend:** React 19, Next.js 15, Tailwind CSS, Shadcn UI
+- **Backend Development:** Node.js, Python 3.11, FastAPI, PostgreSQL
+- **Multi-Tenant Systems:** Data isolation, security, and scalability considerations
+- **Real-Time Applications:** Live dashboards, workflow automation, alert processing
+
+**Development Approach:**  
+- Leveraged AI-assisted development (Cursor Pro) effectively while maintaining code ownership
+- Developed rapid prototyping skills—scoping and delivering working demos under hackathon constraints
+- Applied product management thinking to prioritize features that solve real user pain points
+- Learned to make quick technical decisions with limited research time
+
+**Domain Experience:**  
+Through these projects,I discovered how my  my 25 years of product/program  management experience complements my development work:
+- User-centered design thinking improved prototype UX decisions
+- Stakeholder mindset helped me build features solving real problems, not just technically interesting ones
+- Project scoping skills enabled me to deliver working demos within tight timeframes
+- Business metrics focus (MTTR, cost savings, automation rates) made solutions more impactful
 
 
-					   
-<img width="468" height="84" alt="image" src="https://github.com/user-attachments/assets/2a49443c-312d-43f3-b3d0-cb14dcf0379f" />
+
 ---
 ## Dev Community Articles
 
