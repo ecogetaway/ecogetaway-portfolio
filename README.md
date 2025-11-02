@@ -42,138 +42,38 @@ I'm actively seeking opportunities where I can contribute to meaningful projects
 
 ---
 
-## Projects
+## 🚀 Hackathon Experience
 
-### 🚀 AI-Powered Project Management Dashboard
+### Google Cloud Agentic AI Day  2025 - Shortlisted Finalist
+**Project:** AI-powered wealth management advisor  
+- **Status:** Prototype developed 
+- **My Role:** Solo developer using Cursor AI-assisted development
+- **Technologies:** React, Node.js, Gemini AI ,Vertex AI Agent builder, Google Cloud Platform
+- **What I Built:**  AI-powered wealth management advisor  leverages Fi Money platform’s MCP Server to
+	                  provide hyper-personalized financial guidance through natural language conversations-
+ **Key Learning:** AI Integration in Financial systems
 
-A comprehensive dashboard that leverages machine learning to predict project risks, optimize resource allocation, and provide real-time insights for program managers.
+### SuperHack 2025 - Shortlisted Participant
+**Project:** Service efficiency improvement for Managed Service providers (MSP)s and internal  IT Teams 
+-**Status:** Prototype/MVP
+- **My Role:** Solo developer using Cursor AI-assisted development
 
-**Technologies Used:**
-```
-React, Node.js, Python, TensorFlow, PostgreSQL, Docker, AWS
-```
-
-**YouTube Demo:** [Watch Demo](https://youtube.com/watch?v=placeholder)
-
-**Code Repository:** [View on GitHub](https://github.com/ecogetaway/ai-project-dashboard)
-
-**My Role & Contributions:**
-- Led the product strategy and technical architecture design
-- Implemented the machine learning models for risk prediction
-- Managed cross-functional team of 8 developers and data scientists
-- Established CI/CD pipeline and deployment processes
-
-**Key Challenges Solved:**
-- Integrated multiple data sources to create unified project visibility
-- Developed scalable ML models that could handle enterprise-level data volumes
-- Created intuitive UI that made complex data accessible to non-technical stakeholders
-
+ **Technologies:** React 19, Next.js 15, Tailwind CSS, Shadcn UI, Python 3.11, FastAPI, PostgreSQL ,
+	                   AWS Bedrock (Claude 3 Sonnet), Strands Agents
+ -**What I Built:**  (1) AWS AI-driven Remote Monitoring & Management(RMM) dashboard provides a 
+	                        centralized view of Bedrock Agents, incidents, servers, and analytics. It showcases  
+                            autonomous workflows with explainable actions, emphasizing reductions in Mean 
+                            Time to Repair (MTTR), cost savings, and increased automation rates.
+		(2) MSP Alert Intelligence Platform is an AI powered alert management system for MSPs 
+                               and IT teams that reduces noise, correlates related alerts into incidents,
+                              and streamlines multi tenant operations. This was built on Keep’s Open source  
+                             foundation and enhanced with AWS Bedrock AI and Strands Agents
+ 
+ **Key Learning:**   Workflow Automation, AI/ML Integration 
+  **Code:** Github: (1) https://github.com/ecogetaway/aws-rmm-dashboard2025
+ 		   (2) https://github.com/ecogetaway/AlertIntelligence-NoiseReduction-MSPs
+<img width="468" height="585" alt="image" src="https://github.com/user-attachments/assets/5f5311a1-d00c-4ae9-8a40-d8edab077802" />
 ---
-
-### 🌐 Sustainable Web Development Platform
-
-An open-source platform that helps developers build environmentally conscious web applications by providing tools for carbon footprint tracking and optimization recommendations.
-
-**Technologies Used:**
-```
-Next.js, TypeScript, Tailwind CSS, Supabase, Vercel, Web Vitals API
-```
-
-**YouTube Demo:** [Watch Demo](https://youtube.com/watch?v=placeholder)
-
-**Code Repository:** [View on GitHub](https://github.com/ecogetaway/sustainable-web-platform)
-
-**My Role & Contributions:**
-- Designed and implemented the core platform architecture
-- Developed the carbon footprint calculation algorithms
-- Created comprehensive documentation and developer onboarding materials
-- Managed community contributions and open-source collaboration
-
-**Key Challenges Solved:**
-- Built accurate carbon footprint calculation models for web applications
-- Created a developer-friendly API that integrates seamlessly with existing workflows
-- Established sustainable hosting practices and optimization recommendations
-
----
-
-### 📊 Data Visualization Suite for Non-Profits
-
-A user-friendly data visualization tool specifically designed for non-profit organizations to track their impact, manage donor relationships, and generate compelling reports for stakeholders.
-
-**Technologies Used:**
-```
-Vue.js, D3.js, Node.js, MongoDB, Chart.js, Express
-```
-
-**YouTube Demo:** [Watch Demo](https://youtube.com/watch?v=placeholder)
-
-**Code Repository:** [View on GitHub](https://github.com/ecogetaway/nonprofit-viz-suite)
-
-**My Role & Contributions:**
-- Conducted user research with 15+ non-profit organizations
-- Designed intuitive data visualization components
-- Implemented secure data handling and privacy compliance features
-- Provided training and support for non-technical users
-
-**Key Challenges Solved:**
-- Created accessible visualizations that work across different technical skill levels
-- Implemented robust data security measures for sensitive donor information
-- Developed mobile-responsive design for field workers and remote teams
-
----
-
-### 🤖 AI-Powered Code Review Assistant
-
-An intelligent tool that uses machine learning to provide automated code reviews, suggest improvements, and help teams maintain consistent coding standards.
-
-**Technologies Used:**
-```
-Python, FastAPI, OpenAI API, GitLab API, Docker, Redis
-```
-
-**YouTube Demo:** [Watch Demo](https://youtube.com/watch?v=placeholder)
-
-**Code Repository:** [View on GitHub](https://github.com/ecogetaway/ai-code-reviewer)
-
-**My Role & Contributions:**
-- Architected the AI integration and API design
-- Developed custom machine learning models for code quality assessment
-- Created comprehensive testing framework and quality assurance processes
-- Managed integration with popular development platforms
-
-**Key Challenges Solved:**
-- Built context-aware AI models that understand project-specific coding patterns
-- Created scalable infrastructure to handle high-volume code review requests
-- Developed fair and unbiased review criteria that work across different programming languages
-
----
-
-### 🌱 Community Impact Tracker
-
-A web application that helps local communities track and measure the impact of volunteer activities, environmental initiatives, and social programs.
-
-**Technologies Used:**
-```
-React Native, Firebase, Google Maps API, React, Node.js
-```
-
-**YouTube Demo:** [Watch Demo](https://youtube.com/watch?v=placeholder)
-
-**Code Repository:** [View on GitHub](https://github.com/ecogetaway/community-impact-tracker)
-
-**My Role & Contributions:**
-- Led the product development from concept to deployment
-- Designed mobile-first user experience for community volunteers
-- Implemented real-time data synchronization and offline capabilities
-- Coordinated with local government and community organizations
-
-**Key Challenges Solved:**
-- Created offline-first architecture for areas with limited internet connectivity
-- Developed intuitive data collection forms for users with varying technical skills
-- Built robust data validation and quality assurance processes
-
----
-
 ## Dev Community Articles
 
 ### [Performance Review Season — Visualized in CSS](https://dev.to/ecogetaway_b3a2518c89c057/performance-review-season-visualized-in-css-95g)
@@ -186,29 +86,6 @@ This was a submission for World's Largest Hackathon Writing Challenge that offer
 
 ---
 
-
-## Hackathon Achievements
-
-### 🏆 Tech for Good Hackathon 2024
-**Achievement**: Top 3 Finalist
-**Project**: AI-powered accessibility tool for web applications
-**Date**: March 2024
-**Impact**: Developed a solution that automatically detects and suggests improvements for web accessibility compliance
-
-### 🥈 Climate Tech Innovation Challenge 2023
-**Achievement**: Runner-up
-**Project**: Carbon footprint tracking platform for small businesses
-**Date**: November 2023
-**Impact**: Created a user-friendly tool that helps small businesses measure and reduce their environmental impact
-
-### 🎯 Community Impact Hackathon 2023
-**Achievement**: Judges' Choice Award
-**Project**: Volunteer coordination and impact measurement system
-**Date**: September 2023
-**Impact**: Built a platform that streamlines volunteer management and tracks community impact metrics
-
----
-
 ## Contact & Collaboration
 
 ### Get in Touch
@@ -216,13 +93,10 @@ This was a submission for World's Largest Hackathon Writing Challenge that offer
 - **GitHub**: [@ecogetaway](https://github.com/ecogetaway)
 - **GitHub Discussions**: Feel free to start a discussion in this repository for any questions or collaboration opportunities
 
-### Privacy Note
-For privacy reasons, I prefer initial contact through email or GitHub. I'm happy to connect on other platforms once we've established communication.
-
 ### Current Status
 - 🟢 Available for projects
 - 🔍 Actively looking for opportunities in software development, AI, and IT initiatives
-- 💡 Open to mentoring and contributing to impactful projects
+- 💡 Open to volunteering  and contributing to impactful projects
 
 ### Call to Action
 I'm actively seeking opportunities in software development, AI, and IT projects. Whether you're looking for:
