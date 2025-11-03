@@ -135,8 +135,46 @@ Through these projects,I discovered how my 25 years of product/program  manageme
 - Stakeholder mindset helped me build features solving real problems, not just technically interesting ones
 - Project scoping skills enabled me to deliver working demos within tight timeframes
 - Business metrics focus (MTTR, cost savings, automation rates) made solutions more impactful
-
 ---
+
+
+## 🛠️ Learning Projects & Prototypes
+
+**Project:** AI-Powered Startup Analyst Platform
+
+**Context:** Built while learning Google Cloud native architecture with multi-agent AI orchestration  
+**Development Approach:** AI-assisted development using Cursor Pro  
+**Team:** Solo developer  
+**Status:** Prototype/Learning Project
+
+**The Challenge:**  
+VCs spend 20+ hours manually analyzing each startup for investment decisions. This manual process is time-intensive and delays critical funding decisions.
+
+**My Solution:**  
+Built an AI-powered analyst platform that automates 80-90% of the startup evaluation lifecycle—from application to senior team interaction—while maintaining human decision-making for final investment decisions. The system synthesizes founder materials and public data to generate concise, actionable investment insights.
+
+**Technical Implementation:**
+- **Frontend:** React, TypeScript, Tailwind CSS
+- **Backend:** FastAPI, Python 3.11+
+- **AI/ML:** Vertex AI, Google's agentic AI framework with multi-agent orchestration
+
+**Key Features:**
+- Automated startup data synthesis from multiple sources
+- Multi-agent AI system for comprehensive analysis
+- Actionable investment insight generation
+- Human-in-the-loop design for final decision-making
+
+**Key Learnings:**
+- Google Cloud native architecture and service integration
+- Multi-agent AI orchestration using Vertex AI
+- Designing hybrid AI-human decision workflows
+- Building scalable analysis pipelines with FastAPI
+- Applying product thinking to automate high-value manual processes
+
+**Code Repository:**
+- [Startup Analyst Platform](https://github.com/ecogetaway/startup-analyst-platform)
+
+----
 ## Dev Community Articles
 
 ### [Performance Review Season — Visualized in CSS](https://dev.to/ecogetaway_b3a2518c89c057/performance-review-season-visualized-in-css-95g)
